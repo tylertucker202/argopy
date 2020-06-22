@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class ArgoDataFetcherProto(ABC):
     @abstractmethod
     def to_xarray(self):
