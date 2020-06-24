@@ -153,7 +153,7 @@ class ArgovisDataFetcher(ArgoDataFetcherProto):
         profiles = adf.get_profiles(ids, presRange)
 
         '''
-        url = 'https://argovis.colorado.edu/catalog/mprofiles/?'
+        url = 'https://argovis.colorado.edu/catalog/mprofiles/?ids='
         url += str(profList).replace(' ', '')
         if presRange:
             pressRangeQuery = '&presRange=' + str(presRange).replace(' ', '')
